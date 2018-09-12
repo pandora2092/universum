@@ -1,0 +1,293 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+	.info 
+		h1
+			font-size: 30px
+			&::after
+				bottom: 16px
+				height: 94px
+		.btn
+			min-width: 250px
+			font-size: 20px
+			min-height: 55px
+			line-height: 55px
+
+
+	.header__menu 
+		.navbar 
+			.navbar-nav 
+				.nav-item 
+					a
+						font-size: 12px
+	.header
+		&__phone 
+			a
+				font-size: 12px
+
+		&__search 
+			input
+				min-width: 400px
+
+	.form 
+		h1
+			&::after
+				bottom: 0
+				height: 85px
+
+	.category__slider 
+		.carousel-indicators
+			top: 88px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	// .header__logo
+	// 	min-width: 50px
+
+	.header
+		&__search 
+			input
+				min-width: 300px
+		&__phone 
+			a
+				font-size: 10px
+		&__button
+			font-size: 13px
+			min-width: 106px
+		&__email 
+			a
+				font-size: 10px
+
+		&__menu 
+			.navbar 
+				.navbar-nav 
+					.nav-item 
+						a
+							font-size: 10px
+
+	.info 
+		h1
+			font-size: 28px
+
+	.category__slider 
+		.carousel-indicators
+			top: 54px
+
+	.form 
+		.form-group
+			.form-control
+				margin-bottom: 20px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	.middle__article
+		margin-bottom: 20px
+
+	.header .row
+		&::after
+			width: 94%
+
+	.info 
+		h1
+			&::after
+				height: 22px
+
+	.form 
+		h1
+			font-size: 24px
+		.form-group
+			.form-control
+				margin-bottom: 20px
+
+	.menu_header ~ ul
+		display: none
+
+	.menu_header
+		cursor: pointer
+
+	.form-inline 
+		.form-control
+			width: 100%
+
+	.category
+		&__menu 
+			.menu_header
+				border-bottom: 2px solid #cacaca
+			ul
+				margin-bottom: 20px
+		&__slider 
+			.carousel-indicators
+				top: 60px
+
+	.column-reverse 
+		display: flex
+		flex-direction: column-reverse
+
+	.hidden
+		display: none
+
+	.header
+		&__stars
+			position: absolute
+			left: auto
+			right: 15px
+		&__phone 
+			a
+				font-size: 14px
+		&__menu 
+			.navbar 
+				.navbar-nav 
+					.nav-item 
+						a
+							font-size: 14px
+							&::after
+								display: none
+		&__email 
+			a
+				font-size: 14px
+
+
+
+	.prefooter
+		padding-bottom: 10px
+		&__logo
+			text-align: center
+			margin-bottom: 20px
+	.form 
+		h1
+			&::after
+				bottom: 0
+				height: 43px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+	.info
+		h1
+			font-size: 30px
+		.btn
+			min-width: 200px
+			font-size: 18px
+			min-height: 40px
+			line-height: 20px
+			text-align: center
+
+	.form
+		h1
+			font-size: 25px
+			&::after
+				bottom: 3px
+		.form-group
+			margin: 20px 0
+
+	.partner
+		h1
+			font-size: 30px
+
+	.middle
+		h1
+			font-size: 28px
+			&::after
+				height: 23px
+				bottom: 16px
+
+	.header__search 
+		input
+			min-width: 200px
+
+	.footer
+		text-align: center
+
+
+	.header__phone
+		font-size: 15px
+
+	.info 
+		h1
+			&::after
+				height: 94px
+
+	.partner 
+		h1
+			&::after
+				height: 23px
+				bottom: 16px
+		.container
+			padding-bottom: 20px
+			padding-top: 20px
+	
+	.category__slider 
+		.carousel-indicators
+			top: 40px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+	.category__slider 
+		.carousel-indicators
+			top: 30px
+
+	.form 
+		h1
+			font-size: 25px
+			&::after
+				height: 66px
+				bottom: 3px
+
+	.info
+		h1
+			font-size: 25px
+			&::after
+				height: 78px
+				bottom: 16px
+
+	.partner
+		h1
+			font-size: 25px
+
+	.middle
+		h1
+			font-size: 25px
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+	.category__item 
+		.btn
+			min-width: 125px
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+	
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+	.category__item 
+		.btn
+			min-width: 150px
